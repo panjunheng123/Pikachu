@@ -251,7 +251,7 @@ const player = {
         }
         demo.innerText = string.substr(0, n)
         demo2.innerHTML = string.substr(0, n)
-        demo.scrollTop = demo.scrollHeight
+        demo.scrollTop = 99999
     },
     play: () => {
         return setInterval(player.run, time)
